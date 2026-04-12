@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Create an Account</title>
+  </head>
+  <body>
+    <h1>Sign Up</h1>
+    <p>Please fill in this form to create an account.</p>
+    <hr />
+
+    <form action="/register" method="POST">
+      <div>
+        <label for="fullname">Full Name:</label><br />
+        <input
+          type="text"
+          id="fullname"
+          name="fullname"
+          placeholder="Taisin Nigar Tisha"
+          required
+        />
+      </div>
+
+      <br />
+
+      <div>
+        <label for="email">Email Address:</label><br />
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="email@example.com"
+          required
+        />
+      </div>
+
+      <br />
+
+      <div>
+        <label for="psw">Password:</label><br />
+        <input type="password" id="psw" name="psw" minlength="8" placeholder="*****" required />
+      </div>
+
+      <br />
+
+      <div>
+        <label for="psw-repeat">Repeat Password:</label><br />
+        <input type="password" id="psw-repeat" name="psw-repeat" placeholder="*****" required />
+      </div>
+
+      <br />
+
+      <div>
+        <label>
+          <input type="checkbox" name="remember" required /> I agree to the
+          Terms & Privacy.
+        </label>
+      </div>
+
+      <br />
+
+      <div>
+        <button type="submit">Register Now</button>
+        <button type="reset">Reset Form</button>
+      </div>
+    </form>
+  </body>
+</html>
