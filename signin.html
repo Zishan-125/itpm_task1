@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sign In - ITPM</title>
+</head>
+<body>
+
+    <h1>Sign In</h1>
+
+    <form action="/submit-signin" method="POST">
+        <p>
+            <label for="login-email">Email:</label><br>
+            <input type="email" id="login-email" name="email" required>
+        </p>
+
+        <p>
+            <label for="login-password">Password:</label><br>
+            <input type="password" id="login-password" name="password" required>
+        </p>
+
+        <p>
+            <button type="submit">Login</button>
+        </p>
+    </form>
+
+    <hr>
+    <p>New user? <a href="signup.html">Create an account</a></p>
+
+</body>
+</html>
