@@ -49,8 +49,21 @@ It reflects a strong focus on **clarity, usability, and maintainable code struct
 
 ---
 
+---
+
+## 📬 Contact Information  
+
+For collaboration, project inquiries, or professional networking:
+
+- 🔗 LinkedIn: https://www.linkedin.com/in/abdullah-al-mamun-zishan-606550282  
+- 📧 Email: zafarahmed01071969@gmail.com  
+
+---
+
 ## ⚙️ How to Run the Project  
 
 ```bash
 # Clone the repository
 git clone https://github.com/Zishan-125/itpm_task1.git
+
+
