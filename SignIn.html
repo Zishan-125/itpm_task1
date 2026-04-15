@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+</head>
+<body>
+
+    <center>
+        <h1>Welcome Back</h1>
+        <form action="/submit-login" method="POST">
+            <div>
+                <label for="user">Email or Username:</label><br>
+                <input type="text" id="user" name="user" required>
+            </div>
+            <br>
+            <div>
+                <label for="pass">Password:</label><br>
+                <input type="password" id="pass" name="pass" required>
+            </div>
+            <br>
+            <button type="submit">Login</button>
+        </form>
+
+        <p>OR</p>
+
+        <button type="button">Continue with Google</button>
+
+        <p>Don't have an account? <a href="signup.html">Create one here</a></p>
+    </center>
+
+</body>
+</html>
