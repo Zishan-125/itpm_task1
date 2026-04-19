@@ -1,41 +1,46 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'none';">
     <title>Sign Up - ITPM</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
 
-    <h1>Sign Up</h1>
+    <div class="auth-container">
+        <h1>Sign Up</h1>
+        <form action="success_signup.html" method="GET">
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" placeholder="Choose a username" required>
+            </div>
 
-    <form action="/submit-signup" method="POST">
-        <p>
-            <label for="username">Username:</label><br>
-            <input type="text" id="username" name="username" required>
-        </p>
+            <div class="form-group">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" placeholder="name@example.com" required>
+            </div>
 
-        <p>
-            <label for="email">E-mail:</label><br>
-            <input type="email" id="email" name="email" required>
-        </p>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Create password" required>
+            </div>
 
-        <p>
-            <label for="password">Password:</label><br>
-            <input type="password" id="password" name="password" required>
-        </p>
+            <div class="form-group">
+                <label for="confirm">Confirm Password</label>
+                <input type="password" id="confirm" name="confirm" placeholder="Repeat password" required>
+            </div>
 
-        <p>
-            <label for="confirm">Confirm:</label><br>
-            <input type="password" id="confirm" name="confirm" required>
-        </p>
+            <div class="btn-group">
+                <button type="submit">Register</button>
+            </div>
+        </form>
 
-        <p>
-            <button type="submit">Register</button>
-            <button type="reset">Clear Form</button>
-        </p>
-    </form>
-
-    <hr>
-    <p>Already have an account? <a href="signin.html">Sign In here</a></p>
+        <hr>
+        <div class="footer-link">
+            Already have an account? <a href="signin.html">Sign In here</a>
+        </div>
+    </div>
 
 </body>
 </html>

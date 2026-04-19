@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Success - ITPM Portal</title>
+    <link rel="stylesheet" href="index.css">
+    <style>
+        /* Force the success card to be visible since we are not using JS toggles */
+        .success-overlay {
+            display: flex !important;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.7);
+            backdrop-filter: blur(10px);
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+
+        .success-card {
+            background: white;
+            padding: 3rem;
+            border-radius: 20px;
+            text-align: center;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+            max-width: 400px;
+            width: 90%;
+            animation: popIn 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+
+        .success-icon {
+            font-size: 50px;
+            color: #2ecc71;
+            margin-bottom: 1rem;
+        }
+
+        .success-card h2 {
+            margin: 0;
+            color: #2d3436;
+            font-size: 1.8rem;
+        }
+
+        .success-card p {
+            color: #636e72;
+            margin: 1rem 0 2rem 0;
+        }
+
+        .btn-return {
+            display: inline-block;
+            background: #6c5ce7;
+            color: white;
+            padding: 12px 30px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .btn-return:hover {
+            background: #5b4bc4;
+            transform: translateY(-2px);
+        }
+
+        @keyframes popIn {
+            0% { transform: scale(0.8); opacity: 0; }
+            100% { transform: scale(1); opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="success-overlay">
+        <div class="success-card">
+            <div class="success-icon">✓</div>
+            <h2>Welcome Back!</h2>
+            <p>You have successfully authenticated into the ITPM Portal.</p>
+            <a href="signin.html" class="btn-return">Sign Out</a>
+        </div>
+    </div>
+
+</body>
+</html>
