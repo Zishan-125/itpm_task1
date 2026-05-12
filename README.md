@@ -1,5 +1,10 @@
 # ITPM Task 1 - Express Student API
 
+![Express.js](https://img.shields.io/badge/Express.js-4.x-000000?style=for-the-badge&logo=express&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-LTS-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-v10-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
 This project is a simple Node.js and Express.js backend implementation that serves student information in a formatted JSON structure. This was developed as part of the ITPM course tasks.
 
 ## 🚀 Features
