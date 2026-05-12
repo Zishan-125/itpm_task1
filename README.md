@@ -1,3 +1,3 @@
 ## Output Screenshot
 
-![Output](output.png)
+![Output](output.png.png)
