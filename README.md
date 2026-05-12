@@ -28,8 +28,9 @@ Install dependencies:
 
 ```bash
 npm install
-Start the server:
 ```
+Start the server:
+
 ```bash
 node response.js
 ```
