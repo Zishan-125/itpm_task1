@@ -43,6 +43,29 @@ node response.js
 4. **Access the API:**
    Open your browser or Postman and navigate to: `http://localhost:3000/student`
 
+# Todo List API - Assignment_2
+**Developer ID:** 232031009
+
+## 🚀 API Endpoints
+*   **GET** `/todos` - Retrieve all tasks
+*   **GET** `/todos/:id` - Retrieve a specific task by ID
+*   **POST** `/todos` - Create a new task
+*   **PUT** `/todos/:id` - Update an existing task
+*   **DELETE** `/todos/:id` - Remove a task from the list
+
+## 📸 Postman Testing Results
+| Action | Screenshot |
+| :--- | :--- |
+| Create Todo | ![Create](post.png) |
+| Get All | ![Get All](get.png) |
+| Update | ![Update](put.png) |
+| Delete | ![Delete](delete.png) |
+
+## 🛠️ Instructions
+1. Run `npm install`
+2. Run `node todo.js`
+3. Test using `http://localhost:3000/todos`
+
 ## 👤 Author
 **Abdullah Al Mamun Zishan**
 
