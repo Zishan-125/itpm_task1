@@ -1,3 +1,7 @@
-## Output Screenshot
+![Get All](screenshots/get.png)
 
-![Output](output.png.png)
+![Update](screenshots/update.png)
+
+![Delete](screenshots/delete.png)
+
+![Single](screenshots/single.png)
